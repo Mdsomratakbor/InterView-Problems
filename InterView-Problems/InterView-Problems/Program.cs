@@ -6,7 +6,8 @@ namespace InterView_Problems
     {
         static void Main(string[] args)
         {
-            SecondProblem.StringWordCount();
+            ThirdProblem.ClockDegree();
+         //   SecondProblem.StringWordCount();
             //FirstProblem.PrintOneDArrayByColumn();
             Console.ReadKey();
 
