@@ -61,6 +61,7 @@ namespace CargoShip
             // 
             // NewBoat
             // 
+            this.NewBoat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.NewBoat.Location = new System.Drawing.Point(46, 531);
             this.NewBoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NewBoat.Name = "NewBoat";
@@ -84,13 +85,13 @@ namespace CargoShip
             this.loadSliderPanel.Location = new System.Drawing.Point(218, 15);
             this.loadSliderPanel.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.loadSliderPanel.Name = "loadSliderPanel";
-            this.loadSliderPanel.Size = new System.Drawing.Size(591, 282);
+            this.loadSliderPanel.Size = new System.Drawing.Size(600, 282);
             this.loadSliderPanel.TabIndex = 1;
             // 
             // AlertBox
             // 
             this.AlertBox.BackColor = System.Drawing.Color.Gray;
-            this.AlertBox.Location = new System.Drawing.Point(521, 0);
+            this.AlertBox.Location = new System.Drawing.Point(530, 0);
             this.AlertBox.Name = "AlertBox";
             this.AlertBox.Size = new System.Drawing.Size(70, 35);
             this.AlertBox.TabIndex = 14;
@@ -105,6 +106,7 @@ namespace CargoShip
             this.CurrentLoad.Size = new System.Drawing.Size(156, 28);
             this.CurrentLoad.TabIndex = 5;
             this.CurrentLoad.Text = "CurrentLoad=88";
+            this.CurrentLoad.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Capacity
             // 
@@ -116,6 +118,7 @@ namespace CargoShip
             this.Capacity.Size = new System.Drawing.Size(134, 28);
             this.Capacity.TabIndex = 4;
             this.Capacity.Text = "Capacity=239";
+            this.Capacity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // traincarPanel
             // 

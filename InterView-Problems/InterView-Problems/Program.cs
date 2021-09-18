@@ -11,9 +11,9 @@ namespace InterView_Problems
            Console.WriteLine(FourthProblems.dbl_linear(30));
            Console.WriteLine(FourthProblems.dbl_linear(50));
            Console.WriteLine(FourthProblems.dbl_linear(100));
-            //ThirdProblem.ClockDegree();
-            //   SecondProblem.StringWordCount();
-            //FirstProblem.PrintOneDArrayByColumn();
+           ThirdProblem.ClockDegree();
+           SecondProblem.StringWordCount();
+           FirstProblem.PrintOneDArrayByColumn();
             Console.ReadKey();
 
         }
